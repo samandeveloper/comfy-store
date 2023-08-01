@@ -66,8 +66,7 @@ const Filters = () => {
           {/* end of categories */}
           {/* companies */}
           <div className="form-control">
-            // <h2>company</h2>
-            company
+            <h5>company</h5>
             <select
               //name and value are the in the updateFilters
               name="company"
