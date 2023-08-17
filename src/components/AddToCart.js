@@ -13,6 +13,12 @@ const AddToCart = ({ product }) => {
   const [mainColor, setMainColor] = useState(colors[0]); //first color in the colors array is the default color
   const [amount, setAmount] = useState(1); //state for amount button (increase/decrease) and by default it's 1
 
+  //to make sure that the check icon is on the first color of the colors array
+  useEffect(() => {
+  if (colors[0] !== "") {
+    setMainColor(colors[0]);
+  }
+}, [colors[0]]);
   const increase = () => {
     setAmount((oldAmount) => {
       let tempAmount = oldAmount + 1;
