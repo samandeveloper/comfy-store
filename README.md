@@ -1,4 +1,5 @@
 ## Comfy-Store Application:
+#### Please see the deployment of this project here: https://comfy-store-app-react.netlify.app
 #### 1. The app is written in React library
 #### 2. To test the Stripe payment, the user needs to login 
 #### 3. Auth0 used for login and authentication 
